@@ -1,12 +1,8 @@
 # Wazuh EDR - File Integrity Monitoring(FIM)
 
-# File-Integrity-Monitoring-Using-Wazuh
-
 # Project Overview
 
 This project demonstrates the implementation of File Integrity Monitoring (FIM) using Wazuh. The objective is to monitor critical system files and directories, detect unauthorized changes, and generate real-time security alerts.
-
-
 
   * Technologies Used
 
@@ -21,10 +17,7 @@ This project demonstrates the implementation of File Integrity Monitoring (FIM) 
   * Wazuh Dashboard
 
 
-
 # Objective
-
-
 
  * Monitor sensitive directories and files.
 
