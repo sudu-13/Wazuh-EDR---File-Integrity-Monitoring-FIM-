@@ -46,7 +46,7 @@ Before File Integrity Monitoring can take place, the Wazuh agent must be install
 
 To confirm that the Wazuh agent successfully registered and established a secure channel with the manager, we verify its real-time telemetry from the Endpoints inventory.
 
-![Email Header Analysis](https://github.com/sudu-13/Wazuh-EDR---File-Integrity-Monitoring-FIM-/blob/38eb967e5e81aa38d95b39aefbb9eaabb44fd675/2.png)
+![Email Header Analysis](https://github.com/sudu-13/Wazuh-EDR---File-Integrity-Monitoring-FIM-/blob/9217ccfe27e1ddb28126b063d8493effc8ed098a/3.png)
 
 # Configuring the Agent Local Configuration (ossec.conf)
 
