@@ -73,7 +73,7 @@ To verify that the File Integrity Monitoring (FIM) subsystem actively captures m
 
 After simulating file operations on the monitored endpoint, the File Integrity Monitoring dashboard provides a visual breakdown of the security events ingested by the Wazuh manager.
 
-![Email Header Analysis](https://github.com/sudu-13/Wazuh-EDR---File-Integrity-Monitoring-FIM-/blob/38eb967e5e81aa38d95b39aefbb9eaabb44fd675/2.png)
+![Email Header Analysis](https://github.com/sudu-13/Wazuh-EDR---File-Integrity-Monitoring-FIM-/blob/86cc64d287825ffa8348354bdcd9cdf445653694/6.png)
 
 # Granular Forensic Analysis & Metadata Mapping
 
