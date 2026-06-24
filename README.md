@@ -46,7 +46,7 @@ Before File Integrity Monitoring can take place, the Wazuh agent must be install
 
 To confirm that the Wazuh agent successfully registered and established a secure channel with the manager, we verify its real-time telemetry from the Endpoints inventory.
 
-
+![Email Header Analysis](https://github.com/sudu-13/Wazuh-EDR---File-Integrity-Monitoring-FIM-/blob/38eb967e5e81aa38d95b39aefbb9eaabb44fd675/2.png)
 
 # Configuring the Agent Local Configuration (ossec.conf)
 
@@ -60,25 +60,26 @@ To instruct the Wazuh agent to actively audit changes within sensitive system bo
 
  Tells the system to track exact delta modifications to file interiors, ensuring unauthorized code injection or parameter adjustments can be quickly parsed in a security investigation.
 
+![Email Header Analysis](https://github.com/sudu-13/Wazuh-EDR---File-Integrity-Monitoring-FIM-/blob/38eb967e5e81aa38d95b39aefbb9eaabb44fd675/2.png)
 
 
 # Simulating a Security Event (File Creation)
 
 To verify that the File Integrity Monitoring (FIM) subsystem actively captures modifications, an administrative action was simulated to trigger a file creation alert.
 
-
+![Email Header Analysis](https://github.com/sudu-13/Wazuh-EDR---File-Integrity-Monitoring-FIM-/blob/38eb967e5e81aa38d95b39aefbb9eaabb44fd675/2.png)
 
 # Analyzing FIM Dashboard Alerts
 
 After simulating file operations on the monitored endpoint, the File Integrity Monitoring dashboard provides a visual breakdown of the security events ingested by the Wazuh manager.
 
-
+![Email Header Analysis](https://github.com/sudu-13/Wazuh-EDR---File-Integrity-Monitoring-FIM-/blob/38eb967e5e81aa38d95b39aefbb9eaabb44fd675/2.png)
 
 # Granular Forensic Analysis & Metadata Mapping
 
 When clicking on a specific file event within the Wazuh dashboard, the system provides an exhaustive metadata breakdown. This allows security analysts to perform rapid forensic triage without needing direct terminal access to the affected endpoint.
 
-
+![Email Header Analysis](https://github.com/sudu-13/Wazuh-EDR---File-Integrity-Monitoring-FIM-/blob/38eb967e5e81aa38d95b39aefbb9eaabb44fd675/2.png)
 
 # Conclusion
 
