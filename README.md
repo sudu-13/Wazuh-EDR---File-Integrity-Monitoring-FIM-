@@ -79,7 +79,7 @@ After simulating file operations on the monitored endpoint, the File Integrity M
 
 When clicking on a specific file event within the Wazuh dashboard, the system provides an exhaustive metadata breakdown. This allows security analysts to perform rapid forensic triage without needing direct terminal access to the affected endpoint.
 
-![Email Header Analysis](https://github.com/sudu-13/Wazuh-EDR---File-Integrity-Monitoring-FIM-/blob/38eb967e5e81aa38d95b39aefbb9eaabb44fd675/2.png)
+![Email Header Analysis](https://github.com/sudu-13/Wazuh-EDR---File-Integrity-Monitoring-FIM-/blob/e8d360bb510b0eb25e666af3b0dc4b28db44e173/7.png)
 
 # Conclusion
 
