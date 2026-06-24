@@ -1,1 +1,85 @@
-# Wazuh-EDR---File-Integrity-Monitoring-FIM-
+# Wazuh EDR - File Integrity Monitoring(FIM)
+
+# File-Integrity-Monitoring-Using-Wazuh
+
+# Project Overview
+
+This project demonstrates the implementation of File Integrity Monitoring (FIM) using Wazuh. The objective is to monitor critical system files and directories, detect unauthorized changes, and generate real-time security alerts.
+
+
+
+  * Technologies Used
+
+  * Wazuh Manager 4.14.5
+
+  * Wazuh Agent
+
+  * Ubuntu 24.04.4 LTS
+
+  * Linux File System Monitoring (Syscheck)
+
+  * Wazuh Dashboard
+
+
+
+# Objective
+
+
+
+ * Monitor sensitive directories and files.
+
+  * Detect file creation, modification, and deletion.
+
+  * Generate security alerts in the Wazuh Dashboard.
+
+  * Validate real-time monitoring capabilities.
+
+
+
+# Wazuh Agent Deployment
+
+Before File Integrity Monitoring can take place, the Wazuh agent must be installed and enrolled on the target endpoint. Wazuh provides a streamlined, single-command installation script based on the parameters selected in the dashboard.
+
+
+
+# Agent Verification & Status Check
+
+To confirm that the Wazuh agent successfully registered and established a secure channel with the manager, we verify its real-time telemetry from the Endpoints inventory.
+
+
+
+# Configuring the Agent Local Configuration (ossec.conf)
+
+To instruct the Wazuh agent to actively audit changes within sensitive system boundaries, the main configuration file must be modified on the target endpoint.
+
+* Real-time Triggering (realtime="yes"):
+
+ Utilizes the Linux kernel's file monitoring systems to immediately catch operations.
+
+* Context Capturing (report_changes="yes"):
+
+ Tells the system to track exact delta modifications to file interiors, ensuring unauthorized code injection or parameter adjustments can be quickly parsed in a security investigation.
+
+
+
+# Simulating a Security Event (File Creation)
+
+To verify that the File Integrity Monitoring (FIM) subsystem actively captures modifications, an administrative action was simulated to trigger a file creation alert.
+
+
+
+# Analyzing FIM Dashboard Alerts
+
+After simulating file operations on the monitored endpoint, the File Integrity Monitoring dashboard provides a visual breakdown of the security events ingested by the Wazuh manager.
+
+
+
+# Granular Forensic Analysis & Metadata Mapping
+
+When clicking on a specific file event within the Wazuh dashboard, the system provides an exhaustive metadata breakdown. This allows security analysts to perform rapid forensic triage without needing direct terminal access to the affected endpoint.
+
+
+
+# Conclusion
+
+This project successfully demonstrates File Integrity Monitoring (FIM) using Wazuh EDR. By configuring the Syscheck module with real-time monitoring enabled, the system detected file additions and modifications within the monitored /root directory. Wazuh generated alerts containing detailed metadata such as hashes, permissions, ownership, and timestamps, allowing security analysts to quickly identify unauthorized changes and potential security incidents. This capability is essential for SOC operations, threat detection, compliance monitoring, and incident response.
