@@ -67,7 +67,7 @@ To instruct the Wazuh agent to actively audit changes within sensitive system bo
 
 To verify that the File Integrity Monitoring (FIM) subsystem actively captures modifications, an administrative action was simulated to trigger a file creation alert.
 
-![Email Header Analysis](https://github.com/sudu-13/Wazuh-EDR---File-Integrity-Monitoring-FIM-/blob/38eb967e5e81aa38d95b39aefbb9eaabb44fd675/2.png)
+![Email Header Analysis](https://github.com/sudu-13/Wazuh-EDR---File-Integrity-Monitoring-FIM-/blob/cf01b83711b7391b0ab2b42e1dbc1bb53cf98111/5.png)
 
 # Analyzing FIM Dashboard Alerts
 
