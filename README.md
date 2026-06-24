@@ -60,7 +60,7 @@ To instruct the Wazuh agent to actively audit changes within sensitive system bo
 
  Tells the system to track exact delta modifications to file interiors, ensuring unauthorized code injection or parameter adjustments can be quickly parsed in a security investigation.
 
-![Email Header Analysis](https://github.com/sudu-13/Wazuh-EDR---File-Integrity-Monitoring-FIM-/blob/38eb967e5e81aa38d95b39aefbb9eaabb44fd675/2.png)
+![Email Header Analysis](https://github.com/sudu-13/Wazuh-EDR---File-Integrity-Monitoring-FIM-/blob/abd5346014d78b5aa99a87a0a8bfcc31f8523523/4.png)
 
 
 # Simulating a Security Event (File Creation)
