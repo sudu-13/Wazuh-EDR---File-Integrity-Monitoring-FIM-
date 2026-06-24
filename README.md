@@ -40,7 +40,7 @@ This project demonstrates the implementation of File Integrity Monitoring (FIM) 
 
 Before File Integrity Monitoring can take place, the Wazuh agent must be installed and enrolled on the target endpoint. Wazuh provides a streamlined, single-command installation script based on the parameters selected in the dashboard.
 
-![Email Header Analysis](https://github.com/sudu-13/Phishing-email-Analysis/blob/a851119784bc1f4588533ebee7a251e766c10d8e/Screenshot%202026-06-11%20074121.png)
+![Email Header Analysis](2.png)
 
 # Agent Verification & Status Check
 
